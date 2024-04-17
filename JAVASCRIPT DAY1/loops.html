@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+    function fun1() {
+        var score = parseInt(prompt("Enter the feedback score"));
+        var remarks;
+        switch(score) {
+            case 5:
+                remarks = "excellent";
+                break;
+            case 4:
+                remarks = "very good";
+                break;
+            case 3:
+                remarks = "good";
+                break;
+            case 2:
+                remarks = "Average";
+                break;
+            case 1:
+                remarks = "Below Average";
+                break;
+            default:
+                remarks = "Incorrect Input";
+        }
+        alert(remarks);
+    }
+    function fun2() {
+        alert("For loop");
+    }
+
+    function fun3() {
+        alert("Do while loop ");
+    }
+
+    function fun4() {
+        alert("While loop ");
+    }
+
+    function fun5() {
+        alert("For each loop ");
+    }
+
+</script>
+
+<input type="button" onclick="fun1()" value="switchcase">
+<br>
+<input type="button" onclick="fun2()" value="for loop">
+<br>
+<input type="button" onclick="fun3()" value="Do while Loop">
+<br>
+<input type="button" onclick="fun4()" value="While Loop">
+<br>
+<input type="button" onclick="fun5()" value="For each Loop">
+<br>
+
+</body>
+</html>
